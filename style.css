@@ -70,3 +70,19 @@ footer .footer-contenair a:hover {
         padding: 20px;
     }
 }
+
+
+/* --===================* Petit eçran *===============-- */
+
+@media screen and (max-width: 230px) {
+    main .banniere h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    main .redaction-contenair {
+        width: 85%;
+        padding: 10px;
+    }
+}
