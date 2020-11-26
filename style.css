@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main header {
+    padding: 20px 80px;
+    border-bottom: 1.5px solid #ccc;
+    box-shadow: 0 2px 5px rgb(230, 229, 229);
+}
+
+main .banniere {
+    padding: 75px 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.192)), url("confidentiel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .banniere h1 {
+    color: #003366;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main .redaction-contenair {
+    padding: 20px 80px;
+    margin: -50px auto;
+    background-color: #fff;
+    width: 65%;
+    border-radius: 3px;
+    box-shadow: 0 0 7px #ccc;
+}
+
+footer {
+    margin-top: 70px;
+    padding: 20px 80px;
+    background: #003366;
+    color: #fff;
+}
+
+footer .footer-contenair a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer .footer-contenair a:hover {
+    text-decoration: underline;
+}
+
+
+/* --===============* Responsive -=============== */
+
+@media screen and (max-width: 785px) {
+    main header {
+        padding: 20px;
+    }
+    main .banniere {
+        padding: 75px 20px;
+    }
+    main .redaction-contenair {
+        width: 85%;
+        padding: 20px;
+    }
+    main footer {
+        padding: 20px;
+    }
+}
